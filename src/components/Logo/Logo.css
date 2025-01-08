@@ -1,0 +1,22 @@
+.CollegeLogo {
+  /* margin: 26px 0 0 2.03125vw; */
+  cursor: pointer;
+}
+
+@media screen and (min-width: 1280px) { 
+  .CollegeLogo {
+    margin-left: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) { 
+  .CollegeLogo {
+    margin-left: 3.90625vw;
+  }
+}
+
+@media screen and (max-width: 320px) { 
+  .CollegeLogo {
+    margin-left: 4.375vw;
+  }
+}
